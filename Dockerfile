@@ -3,7 +3,7 @@ FROM golang:1.9 as builder
 # WORKDIR /go/src/github.com/etcinit/phabulous/
 
 RUN go get -v -d github.com/etcinit/phabulous/cmd/phabulous \
-  && go install github.com/etcinit/phabulous/cmd/phabulous
+  && CGO_ENABLED=0 go install -tags netgo -a -v github.com/etcinit/phabulous/cmd/phabulous
 
 
 FROM alpine
