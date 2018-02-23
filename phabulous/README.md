@@ -6,13 +6,13 @@ Phabulous is a Slack bot for Phabricator.
 
 > **Node.js version:** The Javascript version of this project has been replaced
 with a rewrite from scratch in Go. The code for the Javascript version is
-available at the **legacy** branch, but it won't be actively maintained.
+available at the **legacy** branch, but it won't be actively maintained.<
 
 [Build Status](https://travis-ci.org/etcinit/phabulous.svg?branch=master)
 [Docker Repository on
 Quay](https://quay.io/repository/etcinit/phabulous/status) 
 [Go Report
-Card](https://goreportcard.com/badge/github.com/etcinit/phabulous)
+Card]	(https://goreportcard.com/badge/github.com/etcinit/phabulous)
 
 ## Docker-yml guide
 - Yml file contains environment variables which override default configurations.
