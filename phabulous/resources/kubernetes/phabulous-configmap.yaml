@@ -1,0 +1,27 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: phabulous-config
+data:
+  phabulous.config: |-
+    server:
+      hostname: ''
+      port: 8085
+      debug: false
+      serious: false
+    slack:
+      token: xoxb-318307282452-DZAmhiUbap2akYTA2iUWH5xD
+      username: phabulous
+      as-user: true
+    conduit:
+      api: https://nexus.improwised.com/
+      token: api-iyojiofswx74yk6wfgnkzfh3bcgu
+    channels:
+      feed: '#phabricator'
+      repositories:
+        CALLSIGN: '#channel'
+        OTHERCALLSIGN: '#otherchannel'
+      projects:
+        10: '#anotherchannel'
+    misc:
+      ignore-ca: false
