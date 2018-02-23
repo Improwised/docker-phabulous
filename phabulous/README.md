@@ -12,7 +12,7 @@ available at the **legacy** branch, but it won't be actively maintained.
 [Docker Repository on
 Quay](https://quay.io/repository/etcinit/phabulous/status) 
 [Go Report
-Card]	(https://goreportcard.com/badge/github.com/etcinit/phabulous)
+Card](https://goreportcard.com/badge/github.com/etcinit/phabulous)
 
 ## Docker-yml guide
 - Yml file contains environment variables which override default configurations.
