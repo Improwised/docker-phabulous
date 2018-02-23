@@ -7,6 +7,6 @@ services:
       - "8085:8085"
     environment:
       - SERVER_HOSTNAME='127.0.0.1'
-      - SLACK_TOKEN=xoxb-318307282452-DZAmhiUbap2akYTA2iUWH5xD
-      - CONDUIT_API=https://nexus.improwised.com
-      - CONDUIT_TOKEN=api-iyojiofswx74yk6wfgnkzfh3bcgu
+      - SLACK_TOKEN=<slack token>
+      - CONDUIT_API=<conduit api>
+      - CONDUIT_TOKEN=<conduit token>

@@ -11,7 +11,7 @@
   #
   # To listen to the IP addresses a domain resolves to:
   # - some.domain.net
-  hostname: 'https://nexus.improwised.com/'
+  hostname: '<hostname>'
   port: 8085
 
   debug: false
@@ -30,7 +30,7 @@
     # Provides commands useful for the development of Phabulous.
     # - dev
 slack:
-  token: xoxb-318307282452-DZAmhiUbap2akYTA2iUWH5xD
+  token: <token>
   username: phabulous
 
   # Use this flag to enable/disable the Slack connector.
@@ -57,10 +57,10 @@ irc:
   port: 6667
   tls: true
 conduit:
-  api: https://nexus.improwised.com/
+  api: <conduit api>
 
   # For token-based auth, use the following key:
-  token: api-iyojiofswx74yk6wfgnkzfh3bcgu
+  token: <conduit token>
 
   # For certificate-based auth, use the following keys:
   #user: etcinit
